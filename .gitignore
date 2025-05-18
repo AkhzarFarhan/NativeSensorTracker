@@ -1,6 +1,7 @@
 # OSX
 #
 .DS_Store
+Thumbs.db
 
 # Xcode
 #
@@ -34,6 +35,7 @@ local.properties
 *.keystore
 !debug.keystore
 .kotlin/
+*/build/
 
 # node.js
 #
@@ -73,3 +75,46 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Gradle files
+.gradle/
+build/
+*/build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log files
+*.log
+
+# Android Studio
+.idea/
+*.iml
+
+# Keystore files
+*.jks
+*.keystore
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# APKs
+*.apk
+*.ap_
+
+# NDK
+obj/
+*.so
+
+# Misc
+.cxx/
+captures/
+.externalNativeBuild/
+
+# Kotlin/Java
+*.class
+
+# Generated files
+gen/
+out/
